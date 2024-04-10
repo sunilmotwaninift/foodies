@@ -1,0 +1,207 @@
+hr{
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(114, 111, 116);
+}
+
+#logo{
+    width: 10%;
+    text-align: center;
+}
+
+#navlinks{
+    width: 70%;
+    text-align: center;
+}
+
+#media{
+    width: 20%;
+    text-align: center;
+}
+
+#logoimg{
+    height: 80px;
+    margin: 3px 5px;
+    border: 2px rgb(28, 204, 227) solid;
+    border-radius: 40px;
+    
+}
+
+#links{
+    display: flex;
+}
+
+#links li a{
+    padding: 5px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+#links li a:hover{
+    background-color: white;
+    color: rgb(120, 116, 116);
+    transition: 1s;
+    border-bottom: 5px solid rgb(84, 216, 8);
+}
+
+#currentitem{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.lilinks{
+    list-style: none;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 25px;
+  
+}
+
+#media img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#media img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0px 0px 50px 5px rgba(245,243,231,1);
+}
+
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+#homesection{
+    background-image: url(bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 100px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+
+}
+
+#services{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#clients{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#homep1{
+    font-size: 55px;
+    color: brown;
+}
+
+#homep2{
+    font-size: 40px;
+    color: rgb(220, 17, 78);
+    padding: 20px;
+}
+
+#servicesection{
+    min-height: 400px;
+    background-image: url(bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+#clientsection{
+    min-height: 400px;
+    background-image: url(bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.servicesbox{
+    border: 3px red solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.clientsbox{
+    border: 3px rgb(21, 172, 214) solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(202, 239, 203);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.servicesbox img{
+    height: 330px;
+    width: 330px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(127, 18, 211);
+    border-style:double;
+}
+
+.clientsbox img{
+    height: 330px;
+    width: 330px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(211, 102, 18);
+    border-style:double;
+}
+
+
+.servicesbox img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 50px 5px rgb(117, 100, 6);
+}
+
+.clientsbox img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 50px 5px rgb(80, 145, 6);
+}
+
+.servicesbox p{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 30px;
+    color: rgb(144, 87, 17);
+    padding: 10px;
+}
